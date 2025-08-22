@@ -1,0 +1,18 @@
+control_frequency: 30.0
+gripper_enabled: false
+max_episode_steps: 1000
+
+cartesian_control_param_config: null
+joint_control_param_config: null
+
+robot_config:
+  robot_type: "franka"
+  time_to_home: 3.0
+  publish_frequency: 50.0
+
+gripper_config:
+  from_yaml: "gripper_right.yaml"
+
+camera_configs: []
+
+sensor_configs: []
